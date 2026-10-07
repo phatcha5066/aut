@@ -1,0 +1,2 @@
+<?php header("Content-Type: application/json");header("Cache-Control: no-store");
+echo json_encode(["status"=>"ok","test"=>"WAAP rate-limit","timestamp"=>gmdate("c")]); ?>
